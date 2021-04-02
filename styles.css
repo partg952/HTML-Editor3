@@ -1,0 +1,57 @@
+body{
+    background-color: wheat;
+}
+
+#main * {
+    background-color: transparent;
+    width: 90vh;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 5px 0px black;
+    outline: none;
+    height: 90vh;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#editor {
+    resize: none;
+    font-size: 15px;
+}
+
+#main {
+    
+    display: flex;
+    background-color: wheat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#upper {
+    text-align: center;
+    background-color: transparent;
+    margin: 20px;
+}
+
+#upper button {
+    background-color: transparent;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 0px black;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 90px;
+    padding: 1rem;
+    margin: 20px;   
+    transition: all 0.3s ease-in-out;
+}
+
+#upper button:hover {
+    background-color: white;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 0px black;
+    outline: 0;
+    border-radius: 5px;
+    width: 90px;
+    padding: 1rem;
+}
