@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap');
+
 body{
     background-color: wheat;
+    user-select: none;
+    font-family: 'Roboto Mono', monospace;
 }
+
+
 
 #main * {
     background-color: transparent;
@@ -14,8 +20,11 @@ body{
 }
 
 #editor {
+    user-select: text;
     resize: none;
     font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:900 ;
 }
 
 #main {
